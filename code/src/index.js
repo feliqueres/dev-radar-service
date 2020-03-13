@@ -9,8 +9,9 @@ const routes = require("./routes");
 
 const app = express();
 
+// set the URL string connection
 mongoose.connect(
-  "mongodb+srv://admin:Rgj6YJhyomtfpnpp@cluster0-aogyt.mongodb.net/semana-omnistack?retryWrites=true&w=majority",
+  "",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
